@@ -21,7 +21,7 @@ const UploadPage = () => {
     setLoading(true);
   
     try {
-      const response = await axios.post("http://127.0.0.1:8000/upload", formData, {
+      const response = await axios.post("https://chatbot-backend-bli4.onrender.com/upload", formData, {
         headers: { "Content-Type": "multipart/form-data" },
         timeout: 60000, // Increase timeout to 60 seconds if needed
       });
