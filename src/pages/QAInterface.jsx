@@ -26,7 +26,7 @@ const QAInterface = () => {
       // Wait 2 seconds before making the request
       await new Promise((resolve) => setTimeout(resolve, 2000));
   
-      const response = await axios.get("http://127.0.0.1:8000/qa", { params: { question } });
+      const response = await axios.get("https://chatbot-backend-bli4.onrender.com/qa", { params: { question } });
   
       setMessages((prev) => [
         ...prev.slice(0, -1), // Remove "Thinking..."
