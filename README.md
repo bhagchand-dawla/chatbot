@@ -1,8 +1,22 @@
-# React + Vite
+# Chatbot Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a chatbot application built using React, FastAPI, and MongoDB. The backend is hosted using FastAPI and deployed on Vercel, while the frontend is built using React with Vite for fast development. The application uses the Gemini API to answer user queries and computes TF-IDF similarity search using `sklearn` to fetch relevant data from the database.
 
-Currently, two official plugins are available:
+## Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Frontend**: React (Vite)
+- **Backend**: FastAPI (Python)
+- **Database**: MongoDB
+- **Similarity Search**: TF-IDF using `sklearn`
+- **Hosted Link**: [Chatbot App](https://chatbot-yrmi.onrender.com/)
+
+## Features
+
+- User-friendly interface for querying the chatbot
+- Fast response time using TF-IDF similarity for search
+- Seamless backend API to handle queries
+- Scalable database integration with MongoDB
+
+
+
+
