@@ -8,7 +8,7 @@ This is a chatbot application built using React, FastAPI, and MongoDB. The backe
 - **Backend**: FastAPI (Python)
 - **Database**: MongoDB
 - **Similarity Search**: TF-IDF using `sklearn`
-- **Hosted Link**: [Chatbot App](https://chatbot-yrmi.onrender.com/)
+
 
 ## Features
 
@@ -16,6 +16,9 @@ This is a chatbot application built using React, FastAPI, and MongoDB. The backe
 - Fast response time using TF-IDF similarity for search
 - Seamless backend API to handle queries
 - Scalable database integration with MongoDB
+
+##- **Hosted Link**: 
+-[Chatbot App](https://chatbot-yrmi.onrender.com/)
 
 
 
