@@ -17,7 +17,7 @@ This is a chatbot application built using React, FastAPI, and MongoDB. The backe
 - Seamless backend API to handle queries
 - Scalable database integration with MongoDB
 
-##- **Hosted Link**: 
+## Hosted Link: 
 -[Chatbot App](https://chatbot-yrmi.onrender.com/)
 
 
